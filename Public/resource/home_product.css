@@ -1,0 +1,48 @@
+#sidebar{
+	width: 20%;
+	/*background-color: red;*/
+}
+#categories{
+	background-color: #7c6354;
+	width: 100%;
+	text-align: center;
+	border-radius: 0.3em;
+}
+#sidebar > div > a:link,#sidebar > div > a:visited{
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	font-size: 1.2em;
+	line-height: 2.5em;
+	color: #fff;
+	border-bottom: 1px solid #bbb;
+	/*border-radius: 0.5em;*/
+}
+#sidebar > div > a:hover,#sidebar > div > a:active{
+	background-color: #c1a075;
+}
+#contact_us{
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-top: 1.5em;
+}
+#contact_us > div{
+	width: 100%;
+	/*padding: 0.5em;*/
+}
+.contact_btn:link,.contact_btn:visited{
+	/*font-size: 1.2em;*/
+	display: inline-block;
+	background-color: #c1a075;
+	/*padding: 0.5em;*/
+	width: 100%;
+	text-align: center;
+	border-radius: 0.2em;
+	margin-top: 0.5em;
+	color:#000;
+	line-height: 2em;
+	text-decoration: none;
+}
+.contact_btn:hover,.contact_btn:active{
+	text-decoration: underline;
+}
