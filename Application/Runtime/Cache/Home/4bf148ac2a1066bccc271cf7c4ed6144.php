@@ -1,18 +1,18 @@
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><html>
 	<head>
 		<title>Cloud Top ShenZhen Company Offical Website</title>
-		<import type='css' file='resource/reset' />
-		<import type='css' file='resource/common' />
-		<import type='css' file='resource/{$css_file}' />
-		<import file='resource/jquery' />
-		<import file='resource/{$js_file}' />
+		<link rel="stylesheet" type="text/css" href="/web3/Public/resource/reset.css" />
+		<link rel="stylesheet" type="text/css" href="/web3/Public/resource/common.css" />
+		<link rel="stylesheet" type="text/css" href="/web3/Public/resource/<?php echo ($css_file); ?>.css" />
+		<script type="text/javascript" src="/web3/Public/resource/jquery.js"></script>
+		<script type="text/javascript" src="/web3/Public/resource/<?php echo ($js_file); ?>.js"></script>
 	</head>
 	<body>
 	<div id="out-wrapper">
 		<div id="header">
 			<div class="middle">
 				<div id="logo">
-				<img src="__PUBLIC__/img/logo.gif" width="600px;">
+				<img src="/web3/Public/img/logo.gif" width="600px;">
 				<!-- <span style="padding-left: 1em;">YOUR BESET SILICONE PRODUCTS SUPPLIER</span> -->
 				</div>
 
@@ -31,7 +31,7 @@
 			</div>
 		</div><!-- end of #header -->
 
-		{__CONTENT__}
+		
 
 		<div id="footer">
 			<div class="middle">

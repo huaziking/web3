@@ -4,6 +4,7 @@ use Think\Controller;
 class IndexController extends Controller {
     public function index(){
     		$this->assign('css_file','home_index');
+        $this->assign('js_file','home_index');
     		$this->display();
     }
 }

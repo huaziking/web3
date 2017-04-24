@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
 	<title>后台管理</title>
 
-	<import type='css' file='resource/reset' />
-	<import type='css' file='resource/{$css_file}' />
-	<import file='resource/jquery' />
-	<import file='resource/{$js_file}' />
+	<link rel="stylesheet" type="text/css" href="/web3/Public/resource/reset.css" />
+	<link rel="stylesheet" type="text/css" href="/web3/Public/resource/<?php echo ($css_file); ?>.css" />
+	<script type="text/javascript" src="/web3/Public/resource/jquery.js"></script>
+	<script type="text/javascript" src="/web3/Public/resource/<?php echo ($js_file); ?>.js"></script>
 </head>
 <body>
 	<header>后台管理</header><!-- end of header -->
@@ -47,7 +47,10 @@
 		<!-- 下面开始#content内容
 			是用<div #id="content">......</div>包围起来
 	 	-->
-		{__CONTENT__}
+		<div id="content">
+  点击左侧的菜单来进行管理操作。
+</div>
+
 
 	</div><!-- end of #main_area -->
 </body>

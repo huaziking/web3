@@ -1,6 +1,8 @@
+#content > div.middle >div{
+	float: left;
+}
 #sidebar{
-	width: 20%;
-	/*background-color: red;*/
+	width: 180px;
 }
 #categories{
 	background-color: #7c6354;
@@ -45,4 +47,53 @@
 }
 .contact_btn:hover,.contact_btn:active{
 	text-decoration: underline;
+}
+#products{
+	padding: 10px;
+	padding-top: 0;
+	/*margin-top: -10px;*/
+	/*padding-left: 1px;*/
+	/*border: 1px solid red;*/
+	/*padding-top: 0;*/
+	width: 760px;
+	/*background-color: red;*/
+}
+.product{
+	width:235px;
+	height:300px;
+	padding: 0;
+	padding-bottom: 0.5em;
+	float: left;
+	margin-left:15px;
+	margin-top: 20px;
+	/*background-color: #eee;*/
+	border: 1px solid #fff;
+	text-align: center;
+	overflow: hidden;
+}
+.product img{
+	width: 235px;
+	height: 235px;
+	position: relative;
+}
+.product a.product_name:link,
+.product a.product_name:visited{
+	display: inline-block;
+	margin-top: 0.5em;
+	height: 4.8em;
+	/*background-color: red;*/
+	overflow: hidden;
+	line-height: 1.2em;
+}
+.product > button{
+	/*position: absolute;*/
+	width: 100%;
+	line-height: 3em;
+	display: inline-block;
+	margin-top:-3.8em;
+	border: 0;
+	background-color: #ff9900;
+	color: #fff;
+	display: none;
+	/*bottom: 0;*/
 }

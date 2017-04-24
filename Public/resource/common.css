@@ -13,6 +13,10 @@ body{
 	margin: 0 auto;
 	background-color: #fff;
 	padding:0.5em;
+	overflow: hidden;
+}
+.clear{
+	clear: both;
 }
 #header{
 	padding-top: 20px;
@@ -71,7 +75,7 @@ body{
 	border-radius: 5px;
 }
 #footer > .middle >div{
-	
+
 /*	margin-left: 2em;
 	margin-right: 2em;*/
 	padding-top:1em;
