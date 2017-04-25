@@ -6,6 +6,11 @@
 	border: 1px solid red;
 	overflow: hidden;
 }
+#banner_list a:link,
+#banner_list a:visited{
+	display: inline-block;
+	width: 100%;
+}
 #banner_list img{
 	/*border: 0px;*/
 	width: 100%;
@@ -32,13 +37,6 @@
 	color: red;
 	z-index: 1001;
 	cursor: pointer
-}
-#banner_text{
-	position: absolute;
-	width: 120px;
-	z-index: 1002;
-	right: 3px;
-	bottom: 3px;
 }
 #banner ul{
 	position: absolute;
