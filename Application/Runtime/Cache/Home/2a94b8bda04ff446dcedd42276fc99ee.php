@@ -33,53 +33,33 @@
 
 				<div id="content">
 			<div class="middle">
-
-
-<!-- ******************************************************************* -->
-
-
 				<div id="banner">
-		    <div id="banner_bg">
-		    </div>
-		<!--标题背景-->
-		    <div id="banner_info">
-		    </div>
-		<!--标题-->
-		    <ul>
-		        <li class="on">
-		            1
-		        </li>
-		        <li>
-		            2
-		        </li>
-		        <li>
-		            3
-		        </li>
-		        <li>
-		            4
-		        </li>
-		    </ul>
-		    <div id="banner_list">
-		        <a href="#" target="_blank"><img src="/web3/Public/img/slide_show (1).jpg" title="jquery插件库1" alt="jquery插件库1"></a>
+			    	<!--
+					这个div不知道是干什么的，所以先注释掉，看有没有什么影响。
+					<div id="banner_bg"></div> -->
+					<div id="banner_info">
+						This is banner information.
+						This is banner information.
+						This is banner information.
+						This is banner information.
+					</div>
+				    <ul>
+				  		<li class="on">1</li>
+						<li>2</li>
+				        <li>3</li>
+				        <li>4</li>
+				    </ul>
+					<!-- 下面是几张图片 -->
+				    <div id="banner_list">
+				        <a href="http://baidu.com" target="_blank"><img src="/web3/Public/img/slide_show (1).jpg" title="jquery插件库1" alt="jquery插件库1"></a>
 						<a href="#" target="_blank"><img src="/web3/Public/img/slide_show (4).jpg" title="jquery插件库2" alt="jquery插件库2"></a>
 						<a href="#" target="_blank"><img src="/web3/Public/img/slide_show (3).jpg" title="jquery插件库3" alt="jquery插件库3"></a>
 						<a href="#" target="_blank"><img src="/web3/Public/img/slide_show (2).jpg" title="jquery插件库4" alt="jquery插件库4"></a>
-		    </div>
-		</div>
-
-<!-- ************************************************************************************* -->
-
-
-
-
-
-
-
-
+				    </div>
+				</div>
 
 				<div id="small_box">
 					<ul>
-
 						<li>
 							<a href="#">Silicone Cookwares</a>
 							<p>Silicone is echo-friendly material, </p>
